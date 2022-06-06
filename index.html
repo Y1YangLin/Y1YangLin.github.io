@@ -5,7 +5,8 @@
         <meta charset="uft-8">
         <link rel="stylesheet" href="mystyle.css" >
     </head>
-    <body>
+    <!-- css檔中的body特效 -->
+    <body> 
         <div >
             <h1>老鐵你好 歡迎來到我的CV</h1>
             <input type="button" onclick="myF()"value="點我關燈">
@@ -14,10 +15,12 @@
             <h3>姓名：</h3>王景觀
 
             <h3>個人照片：</h3>
+            <!-- 這裡為css檔中的#pic_1 將圖片做hover放大特效 -->
             <img id="pic_1"  src="./ShiMing.png" alt="抱歉 這圖沒了" width="250" height="300">
             
             <br>
             <br>
+            <!-- 這裡是css檔讀id = links 用來改變連結位置 -->
             <a id="links" href="https://www.typd.gov.tw/#gsc.tab=0" target="_blank">桃園市政府警察局網站</a>
             
             
@@ -30,6 +33,7 @@
                 <tr>
                     <th>經歷</th>
                     <th>
+                        <!-- 這裡為css檔中的#list 將表格內容置中-->
                         <ui id="list">
                             <li>2022烏克蘭國際志願軍 致力調停烏俄戰爭</li>
                             <li>桃園市中壢區最佳親合警員獎得主</li>
@@ -47,7 +51,8 @@
                 <tr>
                     <th>重要事蹟：</th>
                     <th>緝拿<span style="color: red;">館長槍擊案</span>真兇 讓館長能一覺好眠</th>
-                    <th><img id="pic_2" src="C:/Users/YI Yang/Desktop/Web/一堆網頁(html)/final_exam/sleep.jpg" alt="這個用絕對路徑"></th>
+                    <!-- 這裡為css的#pic_2 設定圖片大小 -->
+                    <th><img id="pic_2" src="C:/Users/YI Yang/Desktop/Web/一堆網頁(html)/final_exam/sleep.jpg" alt="你沒了"></th>
                 </tr>
 
             </table>
@@ -55,8 +60,9 @@
             <script>
                 function myF(){
                 var element = document.body;
+                // 這裡是給css檔中的.dark 用來改變整個background跟text color
                 element.classList.toggle("dark");
-                element.classList.toggle("popo");
+                // element.classList.toggle("popo");
             }
             </script>
         </div>    
