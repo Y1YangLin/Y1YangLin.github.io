@@ -1,0 +1,35 @@
+body{
+    font-size: 18px;
+    padding : 18px;
+    background-color: lightcyan;
+    color : black;
+}
+
+.dark{
+    background-color: black;
+    color : white;
+}
+
+/* #popo{
+    background-color: aliceblue;
+} */
+
+#links{
+    text-align: center;
+}
+
+#list{
+    text-align: left;
+    font-size: medium;
+}
+
+#pic_1:hover{
+    width: 375px;
+    height: 500px;
+}
+
+#pic_2{
+    width: 200px;
+    height: 200px;
+
+}
