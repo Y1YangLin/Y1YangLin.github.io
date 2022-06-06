@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>老鐵你好 This my CV</title>
+        <meta charset="uft-8">
+        <link rel="stylesheet" href="mystyle.css" >
+    </head>
+    <body>
+        <div >
+            <h1>老鐵你好 歡迎來到我的CV</h1>
+            <input type="button" onclick="myF()"value="點我關燈">
+            <hr>
+
+            <h3>姓名：</h3>王景觀
+
+            <h3>個人照片：</h3>
+            <img id="pic_1"  src="./ShiMing.png" alt="抱歉 這圖沒了" width="250" height="300">
+            
+            <br>
+            <br>
+            <a id="links" href="https://www.typd.gov.tw/#gsc.tab=0" target="_blank">桃園市政府警察局網站</a>
+            
+            
+            <table border="2">
+                <tr>
+                    <th>狀態</th>
+                    <th>在職中</th>
+                </tr>
+
+                <tr>
+                    <th>經歷</th>
+                    <th>
+                        <ui id="list">
+                            <li>2022烏克蘭國際志願軍 致力調停烏俄戰爭</li>
+                            <li>桃園市中壢區最佳親合警員獎得主</li>
+                            <li>館長槍擊案調查行動小組 王組長</li>
+                            <li>任職期間中壢區犯罪率下降50%</li>
+                        </ui>
+                    </th>
+                </tr>
+                
+                <tr>
+                    <th>服務地點：</th>
+                    <th><p>320桃園市中壢區延平路607號  桃園市政府警察局中壢分局</p></th>
+                </tr>
+
+                <tr>
+                    <th>重要事蹟：</th>
+                    <th>緝拿<span style="color: red;">館長槍擊案</span>真兇 讓館長能一覺好眠</th>
+                    <th><img id="pic_2" src="C:/Users/YI Yang/Desktop/Web/一堆網頁(html)/final_exam/sleep.jpg" alt="你沒了"></th>
+                </tr>
+
+            </table>
+            
+            <script>
+                function myF(){
+                var element = document.body;
+                element.classList.toggle("dark");
+                element.classList.toggle("popo");
+            }
+            </script>
+        </div>    
+    </body>
+</html>
